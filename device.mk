@@ -82,6 +82,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/keylayout/uinput-goodix.kl:system/usr/keylayout/uinput-goodix.kl
 
+# Priv-keys
+-include vendor/lineage-priv/keys/keys.mk
+
 # PocketMode
 PRODUCT_PACKAGES += \
     XiaomiPocketMode
