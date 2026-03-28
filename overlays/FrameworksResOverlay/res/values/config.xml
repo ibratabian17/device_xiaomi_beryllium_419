@@ -692,12 +692,6 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M -270,0 L -270,86 L 270,86 L 270,0 Z</string>
 
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">86.0px</dimen>
-    <dimen name="status_bar_height_landscape">86.0px</dimen>
-    <dimen name="rounded_corner_radius">104px</dimen>
-
-
     <!-- Default value for proximity check on screen wake
      NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
     <bool name="config_proximityCheckOnWake">true</bool>
