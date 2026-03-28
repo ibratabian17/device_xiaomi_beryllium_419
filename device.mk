@@ -22,12 +22,15 @@ PRODUCT_PACKAGES += \
     FM2
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
-
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    ApertureOverlay \
+    CarrierConfigOverlay \
+    FrameworksResOverlay \
+    LineageSDKOverlay \
+    LineageSettingsProviderOverlay \
+    NoCutoutOverlay \
+    SettingsProviderOverlay \
+    SystemUIOverlay
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
